@@ -2,6 +2,18 @@
 
 One `geth` binary in your home directory, available as `geth`, and everything node-related in `~/node`:
 config, genesis, `password.txt`, keystore and the chain data.
+## Requirements
+
+### Hardware Requirements
+
+CPU: 4 core
+Memory: 8 GB
+Disk: IMPORTANT 1TB, NVMe SSD, 40k IOPS, 500 MB/S throughput, read latency <1ms.
+Network Bandwidth: >= 512 Mbps
+
+### Software Requirements
+
+Ubuntu 22.04 LTS
 
 ## Network parameters
 
