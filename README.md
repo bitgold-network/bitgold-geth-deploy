@@ -13,7 +13,7 @@ Network Bandwidth: >= 512 Mbps
 
 ### Software Requirements
 
-Ubuntu 22.04 LTS
+Ubuntu 24.04.5 LTS
 
 ## Network parameters
 
