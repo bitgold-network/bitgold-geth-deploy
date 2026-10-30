@@ -1,4 +1,4 @@
-# BitGold v4 Node Deployment (Mainnet / Testnet)
+# BitGold Geth Node Deployment (Mainnet / Testnet)
 
 One `geth` binary in your home directory, available as `geth`, and everything node-related in `~/node`:
 config, genesis, `password.txt`, keystore and the chain data.
