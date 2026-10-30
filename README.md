@@ -39,7 +39,7 @@ second one its own directory with `NODE_DIR` (see the note at the end of section
 cd ~
 
 # 1) unzip the release: geth, config-testnet.toml, genesis-testnet.json, start scripts
-curl -LO https://github.com/openlab-openos/bitgold_v4_deploy/releases/download/1.8.1/geth-1.8.1-testnet-linux-amd64.zip
+curl -LO https://github.com/bitgold-network/bitgold-geth-deploy/releases/download/1.8.1/geth-1.8.1-testnet-linux-amd64.zip
 unzip -o geth-1.8.1-testnet-linux-amd64.zip
 chmod +x geth *.sh
 
@@ -63,7 +63,7 @@ Same steps, with `config.toml` and `genesis.json`:
 ```bash
 cd ~
 
-curl -LO https://github.com/openlab-openos/bitgold_v4_deploy/releases/download/1.8.1/geth-1.8.1-mainnet-linux-amd64.zip
+curl -LO https://github.com/bitgold-network/bitgold-geth-deploy/releases/download/1.8.1/geth-1.8.1-mainnet-linux-amd64.zip
 unzip -o geth-1.8.1-mainnet-linux-amd64.zip
 chmod +x geth *.sh
 
