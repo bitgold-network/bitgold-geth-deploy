@@ -196,7 +196,7 @@ The underlying call takes **two positional arguments**: the operator (validator)
 public key. The script fills both in from the keystore and from `geth bls account list`:
 
 ```bash
-geth bls account generate-proof --datadir ~/node --blspassword ~/node/password.txt \
+geth bls account generate-proof --datadir ~/node --blspassword ~/node/password.txt --chain-id 618 \
   0x<validator-address> 0x<bls-public-key>
 ```
 
