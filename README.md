@@ -185,7 +185,11 @@ No separate BLS password file is needed: `--password` and `--blspassword` both p
 ### 3.4 Inspect the keys / generate the proof
 
 ```bash
-./validator-info.sh --gen-proof
+# Use the local validator address by default
+./validator-info.sh
+
+# Optionally specify an operator address
+./validator-info.sh <operateAddress>
 ```
 
 It prints the validator account, the BLS account (including its public key) and the BLS proof, then the
